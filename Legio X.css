@@ -1,0 +1,79 @@
+
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a{
+    opacity: 0.2;
+    transition: ease-in-out 0.3s;
+}
+
+ul#jogadorEscolha li a:hover,
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolha li a.selecionado {
+    opacity: 1;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+ul {
+    
+     display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: italianno;
+}
+
+#jogadorNome {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#computadorNome {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#jogadorPontos {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+
+#computadorPontos {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+#versus {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#mensagem {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: 'italianno';
+    src: url(Italianno-Regular.ttf);}
+
+    
